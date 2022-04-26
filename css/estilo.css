@@ -8,16 +8,21 @@
                           'rodape formulario';
     height:100vh;
     font-family:arial;
+    color: #ffffff;
 }
 
 /* CABEÇALHO */
 header{grid-area:cabecalho;}
 .logo{display:flex; align-items: center; padding:10px 30px;}
 .logo img{width:80px;}
+.logo h1{color: #274083; font-family: verdana;}
 
 /* PRINCIPAL */
-main{grid-area:principal;}
-
+main{grid-area:principal;background: linear-gradient(to right, #48a0df, #274083); display: flex; align-items: center;padding: 2% 0% 2% 50px; line-height: 1cm;}
+main figure img{width: 100%;}
+main figure{width: 200px; margin-right:20%;}
+main h1{font-size: 40px; width: 70%; margin-bottom: 30px; line-height: 1,5cm;}
+main h3{height: 80%;}
 /*FORMULÁRIO */
 aside{grid-area:formulario;}
 
