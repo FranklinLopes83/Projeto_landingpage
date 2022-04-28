@@ -30,10 +30,10 @@
             <h1>acesse o matérial completo</h1>
             <form action="">
                 <label for=""></label>
-                <input type="text" placeholder="Olá, qual o seu nome">
-                <input type="email" placeholder="qual o seu e-mail">
-                <input type="number" placeholder="qual a sua idade" min=10>
-                <select >
+                <input type="text" placeholder="Olá, qual o seu nome" required>
+                <input type="email" placeholder="qual o seu e-mail" required>
+                <input type="number" placeholder="qual a sua idade" min=10 required>
+                <select required > 
                     <option value="">você mora em qual estado</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
@@ -64,12 +64,15 @@
                     <option value="TO">Tocantins</option>
                     <option value="EX">Estrangeiro</option>
                 </select>
-                <select>
+                <select required>
                     <option value="">QUal o seu sexo</option>
                     <option Sexo= >Masculino</option>
                     <option Sexo= >Feminino</option>
                 </select>
-                <input type="number" placeholder=" qual a soma de 3+4">
+                <input type="number" placeholder=" qual a soma de 3+4" required>
+
+                <input type="submit" value="Receber Material">
+                <small>Prometemos não ultilizar suas informações de contato para qualquer tipo de spam</small>
             </form>
         </aside>
         <footer>
